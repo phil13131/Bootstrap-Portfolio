@@ -24,6 +24,5 @@ To show my skills and experience to potential employers
 
 ## Link to Project GitHub Repo
 
-[GitHub Link](https://github.com/phil13131/Bootstrap-Portfolio.git)
+[GitHub Link](https://phil13131.github.io/Bootstrap-Portfolio/)
  
----
