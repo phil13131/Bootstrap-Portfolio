@@ -1,0 +1,297 @@
+/* Variables */
+:root {
+  --bg-color: #e6eef1;
+  --header-color: #0c0cf6;
+  --primary-color: #f2f2f8;
+  --text-color: #0843f4;
+}
+/* Variables end */
+
+body {
+  font-family: serif;
+  color: var(--text-color);
+  background: var(--primary-color);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h1 span {
+  font-weight: bold;
+  color: rgb(3, 0, 0);
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+/* Header Section */
+header {
+  background: var(--header-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 20px 20px 10px var(--text-color);
+}
+
+header h2 {
+  color: var(--primary-color);
+  font-size: 3rem;
+  padding-left: 2rem;
+  margin-top: 0.75rem;
+}
+
+header nav {
+  color: var(--header-color);
+}
+
+header ul {
+  background: var(--header-color);
+}
+
+header li {
+  opacity: 80%;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+header li :hover {
+  text-decoration: none;
+  color: rgb(240, 7, 31);
+  text-shadow: 5px 5px 30px #050505;
+}
+/* End of Header Section */
+
+/* Jumbotron Section */
+.jumbotron {
+  background-image: url("../images/Anfield-Poster-Liverpool-Kop2.jpg");
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.jumbotron img {
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+  /* aspect-ratio: 1 / 1; */
+}
+
+.jumbotron div {
+  width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  padding-top: 0.2em;
+}
+/* End of Jumbotron Section */
+
+/* .jumbotron a {
+  width: 10em;
+  text-decoration: none;
+  color: var(--text-color);
+  background: var(--header-color);
+  padding: 0 1rem;
+  height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25rem;
+  border: 2px solid red;
+} */
+
+/* Project Section  */
+
+.projects-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #0b6ee0;
+  margin-bottom: 30px;
+}
+
+.projects-section :hover {
+  opacity: 100%;
+}
+
+.top-cardcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardcontainer {
+  opacity: 75%;
+  box-shadow: 10px 10px 50px rgb(175, 169, 169);
+  width: 300px;
+  height: 450px;
+  border: 1px solid rgb(200, 205, 208);
+  border-radius: 2rem;
+  position: relative;
+  margin-top: 2em;
+  background-color: rgb(233, 215, 11);
+}
+
+.card-body {
+  height: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+card-body p {
+  font-size: 1em;
+  height: 50%;
+}
+
+.card-body h6 {
+  font-size: 0.75em;
+  height: 20%;
+}
+
+.card-img-top {
+  height: 40%;
+  width: 100%;
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.card-title {
+  width: 100%;
+  font-weight: bold;
+  height: 20%;
+}
+.cardcontainer a {
+  border-radius: 1.25em;
+  font-size: 0.75em;
+  border: 1px solid #57578f !important;
+}
+
+.link-image {
+  width: 28px;
+  aspect-ratio: 1/1;
+}
+/* End of Project Section  */
+
+/* Form Styling */
+.form-section {
+  background-color: #e7e7f1;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form {
+  width: 40%;
+  margin-top: 4em;
+  margin-bottom: 3em;
+  background: #ceceeb;
+  color: var(--text-color);
+  border: 2px solid var(--header-color);
+  border-radius: 2rem;
+  color: var(--text-color);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form button {
+  width: 5em;
+  margin-bottom: 1em;
+  border: 1px solid var(--header-color) !important;
+}
+
+form input {
+  padding-top: 0;
+  padding-bottom: 4em;
+}
+
+form h5 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+/* End of Form Styling */
+
+/* Footer */
+.contact-me-footer {
+  background-color: var(--header-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-footer ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 3rem;
+  margin-top: 1rem;
+  padding: 0.5rem 2.5rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.contact-me-footer a :hover{
+  filter: brightness(130%);
+}
+
+.contact-me-footer li {
+  text-decoration: none;
+}
+
+.link-image-footer {
+  width: 40px;
+  background-color: rgb(254, 254, 254);
+}
+
+footer p {
+  bottom: 0.5em;
+  left: 20em;
+  color: white;
+  margin-bottom: auto;
+  padding-bottom: 0.5rem;
+}
+
+/* End Footer */
+
+
+/* Media Queries */
+
+@media screen and (max-width: 864px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .jumbotron div {text-align: center;}
+}
+  /* End Media Queries */
