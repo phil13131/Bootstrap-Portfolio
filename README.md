@@ -20,9 +20,9 @@ To show my skills and experience to potential employers
 
 ## Link to Deployed Website
 
-[Page Link](https://phil13131.github.io/Bootstrap-portfolio/)
+[Page Link](https://phil13131.github.io/Bootstrap-Portfolio/)
 
 ## Link to Project GitHub Repo
 
-[GitHub Link](https://phil13131.github.io/Bootstrap-Portfolio/)
+[GitHub Link](https://github.com/phil13131/Bootstrap-Portfolio.git)
  
